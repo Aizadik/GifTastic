@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     //list of animes
-    var animes = ["My Hero Acidamia", "Pokemon ", "Doraemon", "Tokyo Ghoul", "Dragon Ball", "Raki", "My Hero Acidamia", "Fairy Tail", "Naruto", "Sword Art Online", "Charlotte", "Clannad", "Angel Beats!", "Mirai Nikki", "Toradora", "Kimi no Na wa", "Bleach", "Another", "K-On!"]
+    var animes = ["My Hero Acidamia", "Pokemon ", "Doraemon", "Tokyo Ghoul", "Dragon Ball", "Raki", "My Hero Acidamia", "Fairy Tail", "Naruto", "Sword Art Online", "Charlotte", "Clannad", "Angel Beats!", "Mirai Nikki", "Toradora", "Kimi no Na wa", "Bleach", "K-On!"]
     GIFArea = "";
 
     //function for displaying anime data
