@@ -30,5 +30,30 @@ $(document).ready(function() {
         $("#anime-input").focus();
 
     }
+    renderButtons();
+
+    //============CLICK BUTTON/ LISTENERS==================================
+    //this function handles events where one button is clicked
+    $("#add-anime").on('click', function() {
+
+        //event.preventDefault() prevents the form from trying to submit itself
+        //we're using a form so that the user can hit enter instread of clicking the button
+        event.preventDefault();
+
+        //This line will grab the text from the input box
+        var anime = $("#anime-input").val().trim();
+
+        //this movie from the textbox is then added to our array
+        animes.push(movie);
+
+        //calling renderButtons which handles the processing of our movie array
+        renderButtons();
+
+    });
+
+
+
+
+
 
 });
