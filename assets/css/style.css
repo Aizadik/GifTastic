@@ -10,6 +10,7 @@ form {
 
 button {
     color: pink;
+    margin-top: 20px;
 }
 
 .jumbotron {
@@ -25,6 +26,7 @@ h4 {
     font-family: 'Pacifico', cursive;
     background-color: rgb(243, 160, 173);
     color: blue;
+    border-radius: 10px;
 }
 
 #add-anime {
@@ -50,8 +52,6 @@ input[type=reset] {
 }
 
 input[type=submit] {
-    background-color: #12b886;
-    border: #12b886;
     color: white;
     padding: 10px 15px;
     margin: 6px;
@@ -60,20 +60,11 @@ input[type=submit] {
 
 input {
     background-color: aliceblue;
+    border-radius: 15px;
+    border-color: rgb(243, 160, 173);
 }
-
-
-/*updates gif photo to show left to right versus just vertical */
 
 .item {
     padding: 10px;
     display: inline-block;
-}
-
-p {
-    color: #495057;
-    /* background-color: white;
-	padding: 10px 15px;
-	margin: 6px;
-	border-radius: 10px; */
 }
