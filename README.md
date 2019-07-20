@@ -4,6 +4,6 @@
 * Website is all about animes!
 * HTML, CSS, JavaScript and jQuery used here
 * User can also add their favorite anime and display it in the GUI
-* Have fun!
+* Now add your favorite anime to the list and have fun!
 
 ![Image description](assets/images/readMe.png)
